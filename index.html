@@ -15,75 +15,74 @@
 
 	<!--	/////////		CSS 		////////		-->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<script src="js/script.js"></script>
 
 </head>
 <body>
-	<div id="menu">
-		<div class="menu-left">
-			<h1>MARC-ANTOINE TOUIN</h1>
-			<!--<h2>Étudiant Ingénieur</h2>-->
-		</div>
-		<div class="menu-right">
-			<button type="button" target="aboutme">À propos</button>
-			<button type="button" target="skills">Compétences</button>
-			<button type="button" target="experience">Expériences</button>
-			<button type="button" target="projets">Projets</button>
-		</div>
-	</div>
-	<div id="main-content">
-		<div id="wip">
-			<h1>TRAVAUX EN COURS // WORK IN PROGRESS</h1>
-		</div>
-		<div id="aboutme">
-			<h1>À PROPOS DE MOI</h1>
-			<p>Je suis Marc-Antoine Touin, étudiant-ingénieur en 4è année à <a class="link" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</a>.
-			<br>J'ai choisi l'option "Génie Logiciel" et je suis actuellement à la recherche d'une alternance pour l'année 2017-2018.</p>
-			<p>Je possède certaines compétences que vous découvrir <a class="link" href="#skills">ici</a> !</p>
-			<p>Vous pouvez également avoir un aperçu de mes <a class="link" href="#experience">expériences professionelles</a></p>
-			<hr>
-			<h1>MON CURSUS À L'ISEN</h1>
-			<p>J'ai intégré l'ISEN au sein de la formation Cycle Informatique et Réseaux (CIR)
-		</div>
-		<div id="skills">
-			<h1>Mes compétences</h1>
-			<p> J'ai developpé bla bla en telezfqsf </p>
-		</div>
-		<div id="experience">
-			<h1>Mes expériences professionnelles</h1>
-		</div>
-		<div id="projets">
-			<h1>Mes projets</h1>
-		</div>
-	<!-- contact -->
-		<div id="contact" class="row">
-			<div class="col-xs-offset-3 col-xs-6 col-xs-offset-3 col-sm-offset-3 col-sm-6 col-sm-offset-3 col-md-offset-3 col-md-6 col-md-offset-3 col-lg-offset-3 col-lg-6 col-lg-offset-3 ">
-				<h1 class="centre">Me <strong>contacter</strong></h1>
-				<form class="form-horizontal" role="form" action="mailto:touin.marcantoine@gmail.com?Subject=[Portefolio]%20Message">
-					<div class="form-group">
-						<label for="nom">Prénom Nom</label>
-						<input required type="text" class="form-control" id="name" name="name">
-					</div>
-					<div class="form-group">
-						<label for="email">Adresse mail</label>
-						<input required type="email" class="form-control" id="email" name= "email">
-					</div>
-					<div class="form-group">
-						<label for="message">Message</label>
-						<textarea required class="form-control" id="textarea" name="textarea"></textarea>
-					</div>
-					<div class="form-group">
-						<button type="submit" class="btn btn-default center-block">ENVOYER</button>
-					</div>
-				</form>
+	<header>
+		<div id="menu" class="row blue">
+			<div class="col s12 m6 menu-left valign-wrapper white-text">
+				<h2 class="copyright-left">MARC-ANTOINE TOUIN</h2>
+				<!--<h2>Étudiant Ingénieur</h2>-->
+			</div>
+			<div class="menu-right">
+				<button type="button" target="aboutme">À propos</button>
+				<button type="button" target="skills">Compétences</button>
+				<button type="button" target="experience">Expériences</button>
+				<button type="button" target="projets">Projets</button>
 			</div>
 		</div>
-	</div>
-	<!-- Footer -->
-	<div id="footer">
-		all rights reserved. social networks etc...
-	</div>
+	</header>
+	<main>
+		<div id="main-content" class="row">
+			<div id="wip" class="col s12 valign-wrapper">
+				<h2 class="z-depth-3 center-align blue darken-4 white-text">SITE EN COURS DE CONSTRUCTION</h2>
+			</div>
+			<div id="aboutme" class="col s12">
+				<h2 class="blue-text underlined">À PROPOS DE MOI</h2>
+				<p>Je suis Marc-Antoine Touin, étudiant-ingénieur en 4è année à <a class="link" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</a>.
+				<br>J'ai choisi l'option "Génie Logiciel" et je suis actuellement à la recherche d'une alternance pour l'année 2017-2018.</p>
+				<p>Je possède certaines compétences que vous découvrir <a class="link" href="#skills">ici</a> !</p>
+				<p>Vous pouvez également avoir un aperçu de mes <a class="link" href="#experience">expériences professionelles</a></p>
+				<h2 class="blue-text underlined">MON CURSUS À L'ISEN</h2>
+				<p>J'ai intégré l'ISEN au sein de la formation Cycle Informatique et Réseaux (CIR). Les premières années sont constituées de maths, physique et surtout d'informatique.
+					<br></p>
+			</div>
+			<div id="skills">
+				<h2>Mes compétences</h2>
+				<p> J'ai developpé bla bla en telezfqsf </p>
+			</div>
+			<div id="experience">
+				<h2>Mes expériences professionnelles</h2>
+			</div>
+			<div id="projets">
+				<h2>Mes projets</h2>
+			</div>
+		</div>
+	</main>
+	<footer class="page-footer blue">
+		<div class="footer-copyright blue lighten-2">
+			<div class="copyright-left"><i class="fa fa-envelope-o" aria-hidden="true"></i> touin.marcantoine@gmail.com</div>
+			<div class="copyright-right"><a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/ma-touin//" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></div>
+		</div>
+		<div>
+			<div class="row">
+				<div class="col l0 s12 footer-middle">
+					<div class="copyright-left">
+					<h5 class="white-text">Bon à savoir</h5>
+					<p>Ce site est en cours de construction. Des modifications sont susceptibles d'être ajoutées fréquemment.
+						<br>Je vous suggère donc d'ajouter ce site à vos favoris et de venir y jeter un coup d'oeil fréquemment !</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright blue darken-4">
+			<div class="copyright-left">© 2017 Marc-Antoine TOUIN</div>
+			<div class="copyright-right">Site hebergé chez OVH</div>
+		</div>
+	</footer>
 </body>
 </html>
