@@ -2,7 +2,15 @@
   --main-color: #4CA6FF;
   --sec-color: #26537F;
 }
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
+main {
+	flex: 1 0 auto;
+}
 #wip h2 {
 	width: 100%;
 }
