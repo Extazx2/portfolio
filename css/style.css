@@ -1,42 +1,82 @@
+/* setting up var colors */
 :root {
   --main-color: #5486b7;
   --sec-color: #26537F;
   --third-color: #73a5d6;
 }
+/* little setup on body */
 body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 }
+main {
+	flex: 1 0 auto;
+}
+
+/* menu part */
+header {
+	box-shadow: 0 5px 0 var(--main-color);
+}
+nav {
+	background-color: transparent;
+	box-shadow: none;
+}
+.logo {
+	font-size: 4em;
+	font-weight: bold;
+	color: var(--sec-color);
+	margin-left: 3vw;
+	display: inline-block;
+	cursor: pointer;
+}
+.logo:hover, .logo:active, .logo:focus {
+	background-color: var(--main-color);
+	color: white;
+	transition: 0.5s;
+}
+.menu-btn {
+	background-color: transparent;
+	border:none;
+	color: var(--sec-color);
+	margin-right: 3vw;
+	display: inline-block;
+	cursor: pointer;
+}
+.menu-btn:hover, .menu-btn:active, .menu-btn:focus {
+	background-color: var(--main-color);
+	color: white;
+	transition: 0.5s;
+}
+/* main content part */
 p {
 	line-height: 21px;
 }
-.linkedin {
-	color: white;
+#main-content {
+	margin-left: 3vw;
+	margin-right: 3vw;
 }
 button.link {
 	background-color: var(--main-color);
 	color: white;
 	border: none;
 }
-button.link:hover {
+button.link:hover, button.link:active, button.link:focus {
 	background-color: var(--sec-color);
 	color: white;
 	transition: 0.3s;
 }
-main {
-	flex: 1 0 auto;
+button.link_company {
+	border: none;
+	background-color: transparent;
+	box-shadow: 0 3px 0 var(--main-color);
+	/*color: white;*/
 }
-#wip h2 {
-	width: 100%;
-    background-color: var(--sec-color);
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#main-content {
-	margin-left: 3vw;
-	margin-right: 3vw;
+button.link_company:hover, button.link_company:active, button.link_company:focus {
+	background-color: var(--sec-color);
+	box-shadow: 0 3px 0 var(--sec-color);
+	color: white;
+	transition: 0.3s;
 }
 .underlined {
 	border-bottom: 3px var(--sec-color) solid;
@@ -46,17 +86,28 @@ main {
 	background-color: var(--sec-color);
 	color: white;
 }
-.footer-copyright {
-	background-color: var(--main-color)!important;
-	color: white;
+
+#experience p {
+	line-height: 16px;
+}
+.font-light {
+	font-weight: 300;
+}
+.font-bold {
+	font-weight: bold;
+}
+/* footer part */
+footer {
+	margin-top: 20px;
 }
 .page-footer {
 	background-color: var(--third-color);
 	color: white;
 	padding-top: 0;
 }
-.third {
-	background-color: var(--sec-color)!important;
+.footer-copyright {
+	background-color: var(--main-color)!important;
+	color: white;
 }
 .copyright-left {
 	margin-left: 3vw;
@@ -68,14 +119,27 @@ main {
 	position: absolute;
 	right: 0;
 }
+.third {
+	background-color: var(--sec-color)!important;
+}
+.linkedin {
+	color: white;
+}
 .footer-middle {
 	margin: 0!important;
 	padding: 0!important;
 }
-.menu-right, #skills, #experience, #projets, #contact {
-	display: none;
+
+/* eh ... that's a wip ! */
+#wip h2 {
+	width: 100%;
+    background-color: var(--sec-color);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.logo {
-	font-weight: bold;
-	color: var(--sec-color);
+
+/* hide what i don't want to display. */
+#skills, #projets, #contact {
+	display: none;
 }
