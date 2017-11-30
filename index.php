@@ -48,7 +48,7 @@
 				<p>Je suis actuellement à la recherche d'une alternance pour l'année 2017-2018, étant originaire de La Guerche de Bretagne, en Ille-et-Vilaine, je suis disponible à Rennes comme à Brest.</p>
 				<h2 class="underlined">À PROPOS&nbsp;<span class="part1">&nbsp;DE MOI&nbsp;</span></h2>
 				<p>Je possède certaines compétences que vous pourrez prochainement découvrir <button class="link" href="#skills">ici</button> !</p>
-				<p>Vous pouvez également avoir un aperçu de mes <button data-name="experience" class="link" href="#experience">expériences professionelles</button></p>
+				<p>Vous pouvez également avoir un aperçu de mes <button data-name="experience" class="link" href="#experience">expériences professionelles</button>.</p>
 
 			</div>
 			<div id="skills">
@@ -60,14 +60,14 @@
 				<div>
 					<h4><span class="font-light">Développeur </span><span class="font-bold">Full-Stack</span> <button class="link_company" href="http://www.immo-facile.com/" target="_blank">@Immo Facile</button> - 2016 / 2017</h4>
 					<p>J'ai effectué une année en contrat de professionalisation chez Immo Facile en tant que développeur sur le logiciel de la société.</p>
-					<p>Au sein de l'équipe "Projets", j'ai pu participer à la réalisation de nouveaux modules et l'amélioration de l'existant.</p>
-					<p>J'ai également pu travailler seul sur un projet avec un partenaire, participé à la gestion de projet, et assuré le suivi post-production associée à celui-ci.</p>
+					<p>Au sein de l'équipe "Projets", j'ai pu participer à la réalisation de nouveaux modules et à l'amélioration de l'existant.</p>
+					<p>J'ai également pu travailler seul sur un projet avec un partenaire, participer à la gestion de projet, et assurer le suivi post-production associé à celui-ci.</p>
 					<p>Ce projet a été l'objet d'un mémoire de fin d'année que vous pourrez téléchargez en <button class="link" href="#" >cliquant ici !</button></p>
 				</div>
 				<br />
 				<div class="right-align">
 					<h4><span class="font-bold">Vice </span><span class="font-light">Président</span> <button class="link_company" href="https://www.facebook.com/digitaldesign.brest/" target="_blank">@Digital Design</button> - 2016 / 2017</h4>
-					<p>Digital Design est une association étudiante de l'ISEN Brest spécialisée dans le design et les technologies orientée web.</p>
+					<p>Digital Design est une association étudiante de l'ISEN Brest spécialisée dans le design et les technologies orientées web.</p>
 					<p>Les élèves s'impliquent pour (au minimum) 2 années, la première avec une responsabilité moindre, pour s'habituer à ce genre d'activités.</p>
 					<p>La seconde année est destiné à prendre plus de responsabilité et transmettre son savoir aux autres élèves de l'association.</p>
 					<p>J'ai pour ma part été Responsable Communication avant d'évoluer au poste de Vice-Président. Cette année de vice-présidence a été particulièrement enrichissante puisque nous avons obtenu un partenariat avec une association sportive de Gouesnou (plus d'informations à venir à partir du 17 décembre !).</p>
@@ -76,7 +76,7 @@
 				<div>
 					<h4><span class="font-light">Stagiaire </span><span class="font-bold">Web</span> <button class="link_company" href="http://www.autocruise.com/societe-autocruise" target="_blank">@ZF - Autocruise</button> - 2016</h4>
 					<p>Stage de 7 semaines pendant lequel j'ai réalisé un projet de nouveau site web pour la société.</p>
-					<p>Pour ce projet, j'ai du réalisé un cahier des charges, faire les maquettes du site, effectuer la recherche de contenu et créer ce nouveau site web.</p>
+					<p>Pour ce projet, j'ai dû rédiger un cahier des charges, faire les maquettes du site, effectuer la recherche de contenu et créer ce nouveau site web.</p>
 					<p>Étant donné le court laps de temps pour réaliser tout cela, le site web n'a pas pu être finalisé, et n'est donc pas en ligne.</p>
 					<p>Cependant, cela m'a permis d'appliquer dans la pratique, tout ce que j'avais pu apprendre de théorique.</p>
 				</div>
