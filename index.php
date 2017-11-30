@@ -62,7 +62,7 @@
 					<p>J'ai effectué une année en contrat de professionalisation chez Immo Facile en tant que développeur sur le logiciel de la société.</p>
 					<p>Au sein de l'équipe "Projets", j'ai pu participer à la réalisation de nouveaux modules et l'amélioration de l'existant.</p>
 					<p>J'ai également pu travailler seul sur un projet avec un partenaire, participé à la gestion de projet, et assuré le suivi post-production associée à celui-ci.</p>
-					<p>Ce projet a été l'objet d'un mémoire de fin d'année que vous pouvez téléchargez en <button class="link" href="#" >cliquant ici !</button></p>
+					<p>Ce projet a été l'objet d'un mémoire de fin d'année que vous pourrez téléchargez en <button class="link" href="#" >cliquant ici !</button></p>
 				</div>
 				<br />
 				<div class="right-align">
