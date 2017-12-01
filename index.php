@@ -90,7 +90,7 @@
 	<footer class="page-footer">
 		<div class="footer-copyright third">
 			<div class="copyright-left"><i class="fa fa-envelope-o" aria-hidden="true"></i> touin.marcantoine@gmail.com</div>
-			<div class="copyright-right"><a class="linkedin right" href="https://github.com/Extazx2" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i> Github</a><a class="linkedin right" href="https://www.linkedin.com/in/ma-touin//" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></div>
+			<div class="copyright-right"><a class="linkedin right" href="https://github.com/Extazx2" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i> Github</a><a class="linkedin right" href="https://www.linkedin.com/in/ma-touin/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></div>
 		</div>
 		<div>
 			<div class="row">
