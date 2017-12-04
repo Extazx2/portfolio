@@ -17,7 +17,10 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" href="css/devicon.css"> <!-- icone de dev : http://konpa.github.io/devicon/ -->
+	<!--  if you want colored versions -->
+	<link rel="stylesheet" href="css/devicon-colors.css">
+	<!--			JS 				-->
 	<script src="js/script.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 
@@ -31,6 +34,7 @@
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><button type="button" class="menu-btn" data-name="index" target="index">Accueil</button></li>
 					<li><button type="button" class="menu-btn" data-name="experience" target="experience">Expériences</button></li>
+					<li><button type="button" class="menu-btn" data-name="skills" target="skills">Compétences</button></li>
 				</ul>
 			</div>
 		</nav>
@@ -42,21 +46,127 @@
 				<h2 class="center-align truncate">SITE EN COURS DE CONSTRUCTION</h2>
 			</div>
 			<div id="aboutme" class="col s12">
-				<h2 class="underlined"><span class="part1">PRÉSEN</span>TATION</h2>
+				<h2 class="underlined">À PROPOS&nbsp;<span class="part1">&nbsp;DE MOI&nbsp;</span></h2>
 				<p>Je suis Marc-Antoine Touin, étudiant-ingénieur de 21 ans en 4è année du cursus d'ingénieur à <button class="link" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</button> en option "Génie Logiciel".</p>
 				<p>J'ai passé les 3 premières années de ce cursus au sein de la formation "Cycle Informatique et Réseaux", c'est un cycle dérivé des classes préparatoires classiques comportant moins de matières "scientifiques", remplacées par de l'informatique.</p>
 				<p>Je suis actuellement à la recherche d'une alternance pour l'année 2017-2018, étant originaire de La Guerche de Bretagne, en Ille-et-Vilaine, je suis disponible à Rennes comme à Brest.</p>
-				<h2 class="underlined">À PROPOS&nbsp;<span class="part1">&nbsp;DE MOI&nbsp;</span></h2>
-				<p>Je possède certaines compétences que vous pourrez prochainement découvrir <button class="link" href="#skills">ici</button> !</p>
+				<h2 class="underlined"><span class="part1">&nbsp;EN&nbsp;</span>&nbsp;SAVOIR PLUS</h2>
+				<p>Je possède certaines compétences que vous pourrez prochainement découvrir <button class="link" data-name="skills" target="skills">ici</button> !</p>
 				<p>Vous pouvez également avoir un aperçu de mes <button data-name="experience" class="link" href="#experience">expériences professionelles</button>.</p>
 
 			</div>
-			<div id="skills">
-				<h2>Mes compétences</h2>
-				<p>il n'y a rien ici !</p>
+			<div id="skills" class="col s12">
+				<h2 class="underlined">MES&nbsp;<span class="part1">&nbsp;COMPÉTENCES&nbsp;</span></h2>
+				<h3>Programmation :</h3>
+				<div class="row">
+					<div class="skill col s6 m2">
+						<i class="devicon-php-plain"></i>
+						<p>PHP</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-javascript-plain"></i>
+						<p>JAVASCRIPT</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-html5-plain"></i>
+						<p>HTML</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-css3-plain"></i>
+						<p>CSS</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-sass-plain"></i>
+						<p>SASS</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-less-plain-wordmark"></i>
+						<p>LESS</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-git-plain"></i>
+						<p>GIT - GITHUB - GITLAB</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-laravel-plain"></i>
+						<p>LARAVEL</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-symfony-original"></i>
+						<p>SYMFONY</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-mysql-plain"></i>
+						<p>MySQL</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-c-plain"></i>
+						<p>C</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-cplusplus-plain"></i>
+						<p>C++</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-java-plain"></i>
+						<p>JAVA</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-python-plain"></i>
+						<p>PYTHON</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="fa fa-terminal" aria-hidden="true"></i>
+						<p>SHELL</p>
+					</div>
+				</div>
+				<h3>Concepts :</h3>
+				<div class="row">
+					<div class="concept col s6 m2">
+						<p>RESPONSIVE</p>
+					</div>
+					<div class="concept col s6 m2">
+						<p>DESIGN PATTERN</p>
+					</div>
+					<div class="concept col s6 m2">
+						<p>BASE DE DONNÉES</p>
+					</div>
+					<div class="concept col s6 m2">
+						<p>POO</p>
+					</div>
+					<div class="concept col s6 m2">
+						<p>API REST</p>
+					</div>
+					<div class="concept col s6 m2">
+						<p>UML</p>
+					</div>
+				</div>
+				<h3>Outils :</h3>
+				<div class="row">
+					<div class="skill col s6 m2">
+						<i class="devicon-trello-plain"></i>
+						<p>TRELLO</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-photoshop-line colored"></i>
+						<p>PHOTOSHOP</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-illustrator-line colored"></i>
+						<p>ILLUSTRATOR</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-atom-original colored"></i>
+						<p>ATOM</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-phpstorm-plain colored"></i>
+						<p>PHPSTORM</p>
+					</div>
+				</div>
 			</div>
 			<div id="experience" class="col s12">
-				<h2 class="underlined"><span class="part1">EXPÉ</span>RIENCES</h2>
+				<h2 class="underlined"><span class="part1">&nbsp;MES&nbsp;</span>&nbsp;EXPÉRIENCES</h2>
 				<div>
 					<h4><span class="font-light">Développeur </span><span class="font-bold">Full-Stack</span> <button class="link_company" href="http://www.immo-facile.com/" target="_blank">@Immo Facile</button> - 2016 / 2017</h4>
 					<p>J'ai effectué une année en contrat de professionalisation chez Immo Facile en tant que développeur sur le logiciel de la société.</p>
@@ -85,12 +195,94 @@
 				<h2>Mes projets</h2>
 				<p>il n'y a rien ici !</p>
 			</div>
+			<!--<div id="love">
+				<h2 class="underlined"><span class="part1">&nbsp;CE QUE&nbsp;</span>&nbsp;J'AIME</h2>
+				<div class="row">
+					<div class="love col s6 m2">
+						<i class="fa fa-soccer-ball-o" aria-hidden="true"></i>
+						<p>Le football...</p>
+						<div class="love-modal"></div>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-javascript-plain"></i>
+						<p>... et le sport</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-html5-plain"></i>
+						<p>Les jeux vidéo</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-css3-plain"></i>
+						<p>CSS</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-sass-plain"></i>
+						<p>SASS</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-less-plain-wordmark"></i>
+						<p>LESS</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-git-plain"></i>
+						<p>GIT - GITHUB - GITLAB</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-laravel-plain"></i>
+						<p>LARAVEL</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-symfony-original"></i>
+						<p>SYMFONY</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-mysql-plain"></i>
+						<p>MySQL</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-c-plain"></i>
+						<p>C</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-cplusplus-plain"></i>
+						<p>C++</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-java-plain"></i>
+						<p>JAVA</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="devicon-python-plain"></i>
+						<p>PYTHON</p>
+					</div>
+					<div class="skill col s6 m2">
+						<i class="fa fa-terminal" aria-hidden="true"></i>
+						<p>SHELL</p>
+					</div>
+				</div>
+			</div>-->
+			<div id="aboutsite" class="col s12" style="display:none;">
+				<h2 class="underlined"><span class="part1">&nbsp;À PROPOS&nbsp;</span>&nbsp;DU SITE</h2>
+				<p>Ce site est actuellement basé sur une grille Materialize.css.
+					<br>Le changement de section est réalisé par javascript, et malheureusement à base de jQuery pour les animations de hide and show.</p>
+				<p>Pour la suite, j'ai pour projet de passer ce site sous React, et d'afficher une interface app-friendly pour les mobiles.
+					<br>Si vous avez des suggestions, n'hésitez pas, je suis tout ouïe.</p>
+				<h2 class="underlined">MES&nbsp;<span class="part1">&nbsp;FAVORIS&nbsp;</span></h2>
+				<ul>
+					<li>Devicon (Icones de la page "compétences")</li>
+					<li>FontAwesome (Le reste des icônes)</li>
+					<li>Codrops, n'hésitez pas à vous jeter sur les "Collective" !</li>
+					<li>Cody House</li>
+					<li>Le blog d'Hakim El-Attab</li>
+					<li>La MDN JavaScript, un must-have dans ses bookmarks !</li>
+				</ul>
+			</div>
 		</div>
 	</main>
 	<footer class="page-footer">
 		<div class="footer-copyright third">
 			<div class="copyright-left"><i class="fa fa-envelope-o" aria-hidden="true"></i> touin.marcantoine@gmail.com</div>
-			<div class="copyright-right"><a class="linkedin right" href="https://github.com/Extazx2" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i> Github</a><a class="linkedin right" href="https://www.linkedin.com/in/ma-touin//" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></div>
+			<div class="copyright-right"><a class="linkedin right" href="https://github.com/Extazx2" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i> Github</a><a class="linkedin right" href="https://www.linkedin.com/in/ma-touin/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></div>
 		</div>
 		<div>
 			<div class="row">
@@ -105,7 +297,7 @@
 		</div>
 		<div class="footer-copyright">
 			<div class="copyright-left">© 2017 Marc-Antoine TOUIN</div>
-			<div class="copyright-right">Site hebergé chez OVH</div>
+			<div class="copyright-right"><!--<button type="button" class="btn-footer" data-name="aboutsite" target="aboutsite">Cliquez-ici ! </button> -->Site hébergé chez OVH</div>
 		</div>
 	</footer>
 </body>
