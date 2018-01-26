@@ -11,49 +11,58 @@
 	<meta name="keywords" content="isen, brest, etudiant, etudes, ingenieur, cir, digital, design, rennes, touin, marc-antoine, marc, antoine, web, css, html" />
 	<meta name="author" content="Marc-Antoine Touin" />
 
-	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="shortcut icon" href="img/mat.png">
 
 	<!--			CSS 				-->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css"  media="screen,projection"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/devicon.css"> <!-- icone de dev : http://konpa.github.io/devicon/ -->
 	<!--  if you want colored versions -->
 	<link rel="stylesheet" href="css/devicon-colors.css">
 	<!--			JS 				-->
+	<script src="semantic/semantic.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 
 
 </head>
 <body>
-	<header>
-		<nav id="menu">
-			<div class="nav-wrapper">
-				<a class="logo">MARC-ANTOINE TOUIN</a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><button type="button" class="menu-btn" data-name="index" target="index">Accueil</button></li>
-					<li><button type="button" class="menu-btn" data-name="experience" target="experience">Expériences</button></li>
-					<li><button type="button" class="menu-btn" data-name="skills" target="skills">Compétences</button></li>
-				</ul>
-			</div>
-		</nav>
-
-	</header>
-	<main>
-		<div id="main-content" class="row">
-			<div id="wip" class="col s12 valign-wrapper">
-				<h2 class="center-align truncate">SITE EN COURS DE CONSTRUCTION</h2>
-			</div>
-			<div id="aboutme" class="col s12">
-				<h2 class="underlined">À PROPOS&nbsp;<span class="part1">&nbsp;DE MOI&nbsp;</span></h2>
-				<p>Je suis Marc-Antoine Touin, étudiant-ingénieur de 21 ans en 4è année du cursus d'ingénieur à <button class="link" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</button> en option "Génie Logiciel".</p>
+	<div class="ui fixed menu">
+		<div class="ui container">
+			<a href="#presentation" class="header item">
+				<img class="logo" src="/img/mat.png">
+			</a>
+			<a href="#" class="item">Accueil</a>
+			<a class="item">Formation</a>
+			<a class="item">Expériences</a>
+			<a class="item">Compétences</a>
+		</div>
+	</div>
+		<div class="ui main text container">
+			<h1 class="ui header">Semantic UI Fixed Template</h1>
+			<div class="row odd" id="presentation">
+				<h2>À PROPOS DE MOI</h2>
+				<p>Je suis Marc-Antoine Touin, étudiant-ingénieur de 22 ans en 4è année du cursus d'ingénieur à <button class="link" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</button> en option "Génie Logiciel".</p>
 				<p>J'ai passé les 3 premières années de ce cursus au sein de la formation "Cycle Informatique et Réseaux", c'est un cycle dérivé des classes préparatoires classiques comportant moins de matières "scientifiques", remplacées par de l'informatique.</p>
 				<p>Je suis actuellement à la recherche d'une alternance pour l'année 2017-2018, étant originaire de La Guerche de Bretagne, en Ille-et-Vilaine, je suis disponible à Rennes comme à Brest.</p>
-				<h2 class="underlined"><span class="part1">&nbsp;EN&nbsp;</span>&nbsp;SAVOIR PLUS</h2>
+				<h2>EN SAVOIR PLUS</h2>
 				<p>Je possède certaines compétences que vous pourrez prochainement découvrir <button class="link" data-name="skills" target="skills">ici</button> !</p>
 				<p>Vous pouvez également avoir un aperçu de mes <button data-name="experience" class="link" href="#experience">expériences professionelles</button>.</p>
+			</div>
+			<div class="row even" id="formation">
 
+			</div>
+			<div class="row odd" id="experiences">
+
+			</div>
+			<div class="row even" id="competences">
+
+			</div>
+
+		<div id="main-content">
+			<div id="wip" class="col s12 valign-wrapper">
+				<h2 class="center-align truncate">SITE EN COURS DE CONSTRUCTION</h2>
 			</div>
 			<div id="skills" class="col s12">
 				<h2 class="underlined">MES&nbsp;<span class="part1">&nbsp;COMPÉTENCES&nbsp;</span></h2>
@@ -195,72 +204,7 @@
 				<h2>Mes projets</h2>
 				<p>il n'y a rien ici !</p>
 			</div>
-			<!--<div id="love">
-				<h2 class="underlined"><span class="part1">&nbsp;CE QUE&nbsp;</span>&nbsp;J'AIME</h2>
-				<div class="row">
-					<div class="love col s6 m2">
-						<i class="fa fa-soccer-ball-o" aria-hidden="true"></i>
-						<p>Le football...</p>
-						<div class="love-modal"></div>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-javascript-plain"></i>
-						<p>... et le sport</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-html5-plain"></i>
-						<p>Les jeux vidéo</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-css3-plain"></i>
-						<p>CSS</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-sass-plain"></i>
-						<p>SASS</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-less-plain-wordmark"></i>
-						<p>LESS</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-git-plain"></i>
-						<p>GIT - GITHUB - GITLAB</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-laravel-plain"></i>
-						<p>LARAVEL</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-symfony-original"></i>
-						<p>SYMFONY</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-mysql-plain"></i>
-						<p>MySQL</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-c-plain"></i>
-						<p>C</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-cplusplus-plain"></i>
-						<p>C++</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-java-plain"></i>
-						<p>JAVA</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="devicon-python-plain"></i>
-						<p>PYTHON</p>
-					</div>
-					<div class="skill col s6 m2">
-						<i class="fa fa-terminal" aria-hidden="true"></i>
-						<p>SHELL</p>
-					</div>
-				</div>
-			</div>-->
+
 			<div id="aboutsite" class="col s12" style="display:none;">
 				<h2 class="underlined"><span class="part1">&nbsp;À PROPOS&nbsp;</span>&nbsp;DU SITE</h2>
 				<p>Ce site est actuellement basé sur une grille Materialize.css.
@@ -278,7 +222,8 @@
 				</ul>
 			</div>
 		</div>
-	</main>
+	</div>
+
 	<footer class="page-footer">
 		<div class="footer-copyright third">
 			<div class="copyright-left"><i class="fa fa-envelope-o" aria-hidden="true"></i> touin.marcantoine@gmail.com</div>
