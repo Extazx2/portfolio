@@ -5,9 +5,6 @@
 	--color-lightblue: #bfdbf7;
 	--color-yellow: #ffc857;
 	--color-white: #fff;
-
-	--color-midblue: #26537F;
-	--third-color: #73a5d6;
 }
 /* little setup on body */
 
@@ -22,241 +19,24 @@ nav {
 .ui.menu {
 	background-color: var(--color-darkblue);
 }
-
+.ui.menu .item {
+	color: var(--color-white);
+}
+#presentation {
+	margin-top: 4em;
+}
+.main.container {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 .odd {
 	background-color: var(--color-white);
-	color: var(--color-midblue);
+	color: var(--color-darkblue);
 }
 .even {
 	background-color: var(--color-midblue);
-	color: var(--color-yellow);
+	color: var(--color-white);
 }
-
-
-
-
-
-
-.logo {
-	font-size: 4em;
-	font-weight: bold;
-	color: var(--color-midblue);
-	margin-left: 3vw;
-	display: inline-block;
-	cursor: pointer;
-}
-.logo:hover, .logo:active, .logo:focus {
-	background-color: var(--color-darkblue);
-	color: white;
-	transition: 0.5s;
-}
-.menu-btn {
-	background-color: transparent;
-	border:none;
-	color: var(--color-midblue);
-	margin-right: 3vw;
-	display: inline-block;
-	cursor: pointer;
-}
-.menu-btn:hover, .menu-btn:active, .menu-btn:focus {
-	background-color: var(--color-darkblue);
-	color: white;
-	transition: 0.5s;
-}
-.tile-container {
-	margin-top: 15px;
-}
-.tile {
-	display: inline-block;
-    color: white;
-    text-align: center;
-	margin-bottom: 5px;
-}
-.tile-content {
-	background-color: var(--color-midblue);
-	padding-bottom: 5px;
-}
-.tile-content:hover {
-	background-color: var(--color-darkblue);
-	transition: 0.3s;
-}
-.tile h4 {
-	font-size: 15px;
-}
-.tile i {
-	padding-top: 15px;
-}
-/* main content part */
-p {
-	line-height: 21px;
-}
-#main-content {
-	margin-left: 3vw;
-	margin-right: 3vw;
-}
-button.link {
-	background-color: var(--color-darkblue);
-	color: white;
-	border: none;
-}
-button.link:hover, button.link:active, button.link:focus {
-	background-color: var(--color-midblue);
-	color: white;
-	transition: 0.3s;
-}
-button.link_company {
-	border: none;
-	background-color: transparent;
-	box-shadow: 0 3px 0 var(--color-darkblue);
-	/*color: white;*/
-}
-button.link_company:hover, button.link_company:active, button.link_company:focus {
-	background-color: var(--color-midblue);
-	box-shadow: 0 3px 0 var(--color-midblue);
-	color: white;
-	transition: 0.3s;
-}
-.underlined {
-	border-bottom: 3px var(--color-midblue) solid;
-	display: inline-block;
-}
-.part1 {
-	background-color: var(--color-midblue);
-	color: white;
-}
-
-#experience p {
-	line-height: 16px;
-}
-.font-light {
-	font-weight: 300;
-}
-.font-bold {
-	font-weight: bold;
-}
-
-#skills h3 {
-	font-size: 2.5em;
-    color: var(--color-darkblue);
-    font-weight: 300;
-}
-.skill {
-	background-color: var(--color-midblue);
-	color: white;
-	position: relative;
-	text-align: center;
-	border: 2px rgb(255,255,255) solid;
-}
-.skill:hover {
-	background-color: var(--third-color);
-	color: white;
-	transition: 0.5s;
-}
-.skill p{
-	display:none;
-	transition: 0.5s;
-}
-.skill:hover p{
-	display: inline-block;
-	text-align: left;
-	transition: 0.5s;
-	position: absolute;
-	left: 0;
-	bottom: 2px;
-	margin: 0 0 -2px 0;
-	padding: 3px;
-	width: 100%;
-	background-color: var(--color-darkblue);
-}
-.skill i{
-	display: inline-block;
-	padding: 10px;
-    font-size: 8vw;
-    transition: 0.5s;
-}
-.skill:hover i{
-	transition: 0.5s;
-}
-.concept {
-	display: inline-block;
-	background-color: var(--color-midblue);
-	color: white;
-	position: relative;
-	text-align: center;
-	border: 2px rgb(255,255,255) solid;
-}
-/* footer part */
-footer {
-	margin-top: 20px;
-}
-.page-footer {
-	background-color: var(--third-color);
-	color: white;
-	padding-top: 0;
-}
-.footer-copyright {
-	background-color: var(--color-darkblue)!important;
-	color: white;
-}
-.copyright-left {
-	margin-left: 3vw;
-	display: inline-block;
-}
-.copyright-right {
-	display: inline-block;
-	margin-right: 3vw;
-	position: absolute;
-	right: 0;
-}
-.third {
-	background-color: var(--color-midblue)!important;
-}
-.linkedin {
-	color: white;
-}
-.footer-middle {
-	margin: 0!important;
-	padding: 0!important;
-}
-button.btn-footer {
-	background-color: transparent;
-	border: none;
-}
-button.btn-footer:hover, button.link:active, button.link:focus {
-	background-color: var(--color-midblue);
-	color: white;
-	transition: 0.3s;
-}
-
-
-/* eh ... that's a wip ! */
-#wip h2 {
-	width: 100%;
-    background-color: var(--color-midblue);
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* hide what i don't want to display. */
-#projets, #contact {
-	display: none;
-}
-
-@media screen and (min-width: 200px) and (max-width: 640px) {
-	.logo {
-		font-size: 2em;
-		width:100%;
-		margin-left: 0;
-		text-align: center;
-	}
-	h2.underlined {
-		font-size: 1.7em;
-	}
-	#wip h2 {
-		font-size : 2em;
-	}
-	.footer-copyright {
-		font-size: 0.9em;
-	}
+.ui.button {
+	background-color: var(--color-yellow);
 }

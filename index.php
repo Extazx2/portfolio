@@ -11,7 +11,7 @@
 	<meta name="keywords" content="isen, brest, etudiant, etudes, ingenieur, cir, digital, design, rennes, touin, marc-antoine, marc, antoine, web, css, html" />
 	<meta name="author" content="Marc-Antoine Touin" />
 
-	<link rel="shortcut icon" href="img/mat.png">
+	<link rel="shortcut icon" href="img/mat_darkblue.png">
 
 	<!--			CSS 				-->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -30,42 +30,52 @@
 <body>
 	<div class="ui fixed menu">
 		<div class="ui container">
-			<a href="#presentation" class="header item">
-				<img class="logo" src="/img/mat.png">
+			<a href="#presentation" class="item">
+				<img src="img/mat_jaune.png">
 			</a>
-			<a href="#" class="item">Accueil</a>
-			<a class="item">Formation</a>
-			<a class="item">Expériences</a>
-			<a class="item">Compétences</a>
+			<a href="#" class="right item">Accueil</a>
+			<a href="#" class="item">Formation</a>
+			<a href="#" class="item">Expériences</a>
+			<a href="#" class="item">Compétences</a>
 		</div>
 	</div>
-		<div class="ui main text container">
-			<h1 class="ui header">Semantic UI Fixed Template</h1>
-			<div class="row odd" id="presentation">
-				<h2>À PROPOS DE MOI</h2>
-				<p>Je suis Marc-Antoine Touin, étudiant-ingénieur de 22 ans en 4è année du cursus d'ingénieur à <button class="link" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</button> en option "Génie Logiciel".</p>
-				<p>J'ai passé les 3 premières années de ce cursus au sein de la formation "Cycle Informatique et Réseaux", c'est un cycle dérivé des classes préparatoires classiques comportant moins de matières "scientifiques", remplacées par de l'informatique.</p>
-				<p>Je suis actuellement à la recherche d'une alternance pour l'année 2017-2018, étant originaire de La Guerche de Bretagne, en Ille-et-Vilaine, je suis disponible à Rennes comme à Brest.</p>
-				<h2>EN SAVOIR PLUS</h2>
-				<p>Je possède certaines compétences que vous pourrez prochainement découvrir <button class="link" data-name="skills" target="skills">ici</button> !</p>
-				<p>Vous pouvez également avoir un aperçu de mes <button data-name="experience" class="link" href="#experience">expériences professionelles</button>.</p>
+		<div class="row odd" id="presentation">
+			<div class="ui main text container">
+				<h1 class="ui header">Marc-Antoine Touin, étudiant ingénieur.</h1>
+				<h2><u>À PROPOS DE MOI</u></h2>
+				<p>J'ai 22 ans, j'habite à Brest mais je viens de La Guerche de Bretagne (35) et je suis en 4è année du cursus d'ingénieur à <button class="ui button" href="http://isen-brest.fr/" target="_blank">YNCREA Ouest - ISEN Brest</button> en option "Génie Logiciel".</p>
+				<p>J'ai passé les 3 premières années de ce cursus au sein de la formation "Cycle Informatique et Réseaux", c'est un cycle dérivé des classes préparatoires classiques comportant moins de mathématiques et physique, remplacés par de l'informatique.</p>
+				<p>Je suis actuellement à la recherche d'une alternance pour l'année 2017-2018, dans la région brestoise ou rennaise.</p>
 			</div>
-			<div class="row even" id="formation">
-
+		</div>
+		<div class="row even" id="experiences">
+			<div class="ui main text container">
+				<h2><u>EXPÉRIENCES</u></h2>
+				<h4>Développeur Full-Stack <button class="ui button" href="http://www.immo-facile.com/" target="_blank">@Immo Facile</button> - 2016 / 2017</h4>
+				<p>J'ai effectué une année en contrat de professionalisation chez Immo Facile en tant que développeur sur le logiciel de la société.
+					<br />Au sein de l'équipe "Projets", j'ai pu participer à la réalisation de nouveaux modules et à l'amélioration de l'existant.
+					<br />J'ai également pu travailler seul sur un projet avec un partenaire, participer à la gestion de projet, et assurer le suivi post-production associé à celui-ci.
+					<br />Ce projet a été l'objet d'un mémoire de fin d'année que vous pourrez téléchargez en <button class="ui button" href="#" >cliquant ici !</button>
+				</p>
+				<div class="ui divider"></div>
+				<h4>Vice-Président <button class="ui button" href="https://www.facebook.com/digitaldesign.brest/" target="_blank">@Digital Design</button> - 2016 / 2017</h4>
+				<p>Digital Design est une association étudiante de l'ISEN Brest spécialisée dans le design et les technologies orientées web.
+					<br />Les élèves s'impliquent pour (au minimum) 2 années, la première avec une responsabilité moindre, pour s'habituer à ce genre d'activités.
+					<br />La seconde année est destiné à prendre plus de responsabilité et transmettre son savoir aux autres élèves de l'association.
+					<br />J'ai pour ma part été Responsable Communication avant d'évoluer au poste de Vice-Président. Cette année de vice-présidence a été particulièrement enrichissante puisque nous avons obtenu un partenariat avec une association sportive de Gouesnou (plus d'informations à venir à partir du 17 décembre !).
+				</p>
+				<div class="ui divider"></div>
+				<h4>Stagiaire Web <button class="ui button" href="http://www.autocruise.com/societe-autocruise" target="_blank">@ZF - Autocruise</button> - 2016</h4>
+				<p>Stage de 7 semaines pendant lequel j'ai réalisé un projet de nouveau site web pour la société.
+					<br />Pour ce projet, j'ai dû rédiger un cahier des charges, faire les maquettes du site, effectuer la recherche de contenu et créer ce nouveau site web.
+					<br />Étant donné le court laps de temps pour réaliser tout cela, le site web n'a pas pu être finalisé, et n'est donc pas en ligne.
+					<br />Cependant, cela m'a permis d'appliquer dans la pratique, tout ce que j'avais pu apprendre de théorique.
+				</p>
 			</div>
-			<div class="row odd" id="experiences">
-
-			</div>
-			<div class="row even" id="competences">
-
-			</div>
-
-		<div id="main-content">
-			<div id="wip" class="col s12 valign-wrapper">
-				<h2 class="center-align truncate">SITE EN COURS DE CONSTRUCTION</h2>
-			</div>
-			<div id="skills" class="col s12">
-				<h2 class="underlined">MES&nbsp;<span class="part1">&nbsp;COMPÉTENCES&nbsp;</span></h2>
+		</div>
+		<div class="row odd" id="competences">
+			<div class="ui main text container">
+				<h2><u>MES COMPÉTENCES</u></h2>
 				<h3>Programmation :</h3>
 				<div class="row">
 					<div class="skill col s6 m2">
@@ -129,6 +139,11 @@
 						<p>SHELL</p>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div id="main-content">
+			<div id="skills" class="col s12">
+
 				<h3>Concepts :</h3>
 				<div class="row">
 					<div class="concept col s6 m2">
@@ -176,29 +191,7 @@
 			</div>
 			<div id="experience" class="col s12">
 				<h2 class="underlined"><span class="part1">&nbsp;MES&nbsp;</span>&nbsp;EXPÉRIENCES</h2>
-				<div>
-					<h4><span class="font-light">Développeur </span><span class="font-bold">Full-Stack</span> <button class="link_company" href="http://www.immo-facile.com/" target="_blank">@Immo Facile</button> - 2016 / 2017</h4>
-					<p>J'ai effectué une année en contrat de professionalisation chez Immo Facile en tant que développeur sur le logiciel de la société.</p>
-					<p>Au sein de l'équipe "Projets", j'ai pu participer à la réalisation de nouveaux modules et à l'amélioration de l'existant.</p>
-					<p>J'ai également pu travailler seul sur un projet avec un partenaire, participer à la gestion de projet, et assurer le suivi post-production associé à celui-ci.</p>
-					<p>Ce projet a été l'objet d'un mémoire de fin d'année que vous pourrez téléchargez en <button class="link" href="#" >cliquant ici !</button></p>
-				</div>
-				<br />
-				<div class="right-align">
-					<h4><span class="font-bold">Vice </span><span class="font-light">Président</span> <button class="link_company" href="https://www.facebook.com/digitaldesign.brest/" target="_blank">@Digital Design</button> - 2016 / 2017</h4>
-					<p>Digital Design est une association étudiante de l'ISEN Brest spécialisée dans le design et les technologies orientées web.</p>
-					<p>Les élèves s'impliquent pour (au minimum) 2 années, la première avec une responsabilité moindre, pour s'habituer à ce genre d'activités.</p>
-					<p>La seconde année est destiné à prendre plus de responsabilité et transmettre son savoir aux autres élèves de l'association.</p>
-					<p>J'ai pour ma part été Responsable Communication avant d'évoluer au poste de Vice-Président. Cette année de vice-présidence a été particulièrement enrichissante puisque nous avons obtenu un partenariat avec une association sportive de Gouesnou (plus d'informations à venir à partir du 17 décembre !).</p>
-				</div>
-				<br />
-				<div>
-					<h4><span class="font-light">Stagiaire </span><span class="font-bold">Web</span> <button class="link_company" href="http://www.autocruise.com/societe-autocruise" target="_blank">@ZF - Autocruise</button> - 2016</h4>
-					<p>Stage de 7 semaines pendant lequel j'ai réalisé un projet de nouveau site web pour la société.</p>
-					<p>Pour ce projet, j'ai dû rédiger un cahier des charges, faire les maquettes du site, effectuer la recherche de contenu et créer ce nouveau site web.</p>
-					<p>Étant donné le court laps de temps pour réaliser tout cela, le site web n'a pas pu être finalisé, et n'est donc pas en ligne.</p>
-					<p>Cependant, cela m'a permis d'appliquer dans la pratique, tout ce que j'avais pu apprendre de théorique.</p>
-				</div>
+
 			</div>
 			<div id="projets">
 				<h2>Mes projets</h2>
