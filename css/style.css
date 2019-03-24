@@ -6,37 +6,197 @@
 	--color-yellow: #ffc857;
 	--color-white: #fff;
 }
-/* little setup on body */
+/**
+ * ARCA MAJORA 3
+ */
+@font-face {
+	font-family: "Arca3";
+	font-weight: 700;
+	src: url("fonts/ArcaMajora3-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: "Arca3";
+	font-weight: 900;
+	src: url("fonts/ArcaMajora3-Heavy.otf") format("opentype");
+}
+/*
+ * LATO
+ */
+@font-face {
+	font-family: "lato";
+	font-weight: 300;
+	font-style: normal;
+	src: url("fonts/lato/LatoWeb-Light.ttf") format("truetype");
+}
+@font-face {
+	font-family: "lato";
+	font-weight: 300;
+	font-style: italic;
+	src: url("fonts/lato/LatoWeb-LightItalic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "lato";
+	font-weight: 400;
+	font-style: normal;
+	src: url("fonts/lato/LatoWeb-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "lato";
+	font-weight: 400;
+	font-style: italic;
+	src: url("fonts/lato/LatoWeb-Italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "lato";
+	font-weight: 700;
+	font-style: normal;
+	src: url("fonts/lato/LatoWeb-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "lato";
+	font-weight: 700;
+	font-style: italic;
+	src: url("fonts/lato/LatoWeb-BoldItalic.ttf") format("truetype");
+}
 
-/* menu part */
-/*header {
-	box-shadow: 0 5px 0 var(--color-darkblue);
-}*/
-nav {
-	background-color: transparent;
-	box-shadow: none;
+/* little setup on body */
+body, html {
+    height: 100%;
 }
-.ui.menu {
+body {
+	margin: 0;
+    box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-family: "myriad pro";
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+h1,h2,h3,h4 {
+	margin: 0;
+}
+h2 {
+	font-family: "century gothic";
+	font-weight: 300;
+}
+p {
+	color: var(--color-midblue);
+	margin: 0;
+}
+a {
+	color: inherit;
+}
+/****************/
+/*    HEADER    */
+/****************/
+.is-bg-darkblue {
 	background-color: var(--color-darkblue);
+	color: white;
 }
-.ui.menu .item {
-	color: var(--color-white);
+.is-bg-darkblue *:active, .is-bg-darkblue *:focus {
+	color: white;
 }
-#presentation {
-	margin-top: 4em;
+.arca-title {
+	font-family: Arca3;
+	text-transform: uppercase;
+	color: var(--color-lightblue)!important;
+
 }
-.main.container {
-	padding-top: 1em;
-	padding-bottom: 1em;
+.italic-subtitle {
+	font-style: italic;
+	color: var(--color-lightblue)!important;
+
 }
-.odd {
-	background-color: var(--color-white);
-	color: var(--color-darkblue);
+
+
+.title.is-4 {
+	margin-top: 1.5rem;
+	margin-bottom: 0.3rem;
 }
-.even {
+
+.experiences, .formation, .competences, .others {
+	margin-top: 1.5rem;
+}
+
+
+.footer {
 	background-color: var(--color-midblue);
-	color: var(--color-white);
 }
-.ui.button {
-	background-color: var(--color-yellow);
+.footer p {
+	color: var(--color-lightblue)!important;
+}
+/*header {
+	padding: 15px 3vw;
+	position: relative;
+	height: 10vw;
+	background-color: var(--color-darkblue);
+	color: var(--color-lightblue);
+}
+header .nom {
+	width: 62vw;
+	display:inline-block;
+}
+header .nom h1 {
+	font-family: Arca3;
+	text-transform: uppercase;
+}
+header .nom h2 {
+	font-style: italic;
+	font-size: 6.5vh;
+	margin-top: -2vh;
+}
+header .infos {
+	display: inline-block;
+    width: calc(38vw - 101px);
+}
+header .infos h4 {
+	font-weight: 300;
+}
+header .infos a {
+	text-decoration: none;
+	color: var(--color-lightblue);
+}
+header .infos .part1 {
+	display: inline-block;
+    width: 49%;
+    line-height: 1.8;
+}
+header .infos .part2 {
+	display: inline-block;
+    width: 49%;
+    padding-left: 20px;
+}*/
+
+/**************/
+/*    MAIN    */
+/**************/
+/*main {
+	position: relative;
+	padding: 0px 3vw;
+}
+main h2 {
+	text-transform: uppercase;
+	font-size: 4vh;
+	text-decoration: underline #2e4052;
+	margin-bottom: 1vh;
+}
+.about, .experiences, .formation, .competences, .others {
+	margin-bottom: 15px;
+    margin-top: 15px;
+}
+main h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 3vh;
+}
+main p {
+	font-size: 2vh;
+}*/
+
+
+@media screen and (min-width: 1088px) {
+	.is-size-0-desktop {
+		font-size: 4rem !important;
+	}
 }
